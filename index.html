@@ -21,10 +21,54 @@
             class="img-fluid"
           />
         </div>
-        <div class="col"></div>
+        <div class="col">
+          <form class="m-5">
+            <h2 class="text-center">Login Page</h2>
+            <div class="form-content m-3 p-3">
+              <!-- input username -->
+              <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input
+                  type="text"
+                  class="form-control-lg w-100 border border-dark-subtle"
+                  placeholder="Username"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+              <!-- input password -->
+              <div class="input-group flex-nowrap mt-3">
+                <span class="input-group-text" id="addon-wrapping"
+                  ><iconify-icon
+                    icon="material-symbols:lock-open-circle"
+                    width="24"
+                    height="24"
+                    style="color: red"
+                  ></iconify-icon
+                ></span>
+                <input
+                  type="password"
+                  class="form-control-lg w-100 border border-dark-subtle"
+                  placeholder="password"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+              <!-- login btn -->
+              <button class="btn btn-primary mt-3 w-100" type="submit">
+                Button
+              </button>
+              <div class="text-login d-flex justify-content-around mt-3">
+                <p class="text-body-secondary">forgot password?</p>
+                <p class="text-body-secondary">Dont have an account?signup</p>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
+    <script src="https://code.iconify.design/iconify-icon/3.0.0/iconify-icon.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"

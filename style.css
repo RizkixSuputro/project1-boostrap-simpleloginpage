@@ -9,3 +9,7 @@
 .container {
   height: auto;
 }
+form > h2 {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+}
